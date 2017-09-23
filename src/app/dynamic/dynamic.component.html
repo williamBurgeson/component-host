@@ -11,4 +11,13 @@ Choose Component:
 
 Component Selected: {{componentSelected}}
 
+<div *ngIf="componentInstance">
+  <p>Make the component say something else:</p>
+  <ul>
+    <li><a (click)="this.componentInstance.message='Konnichiwa'">Konnichiwa!</a></li>
+    <li><a (click)="this.componentInstance.message='Dzien Dobry'">Dzien Dobry!</a></li>
+    <li><a (click)="this.componentInstance.message='Ni Hao'">Ni Hao!</a></li>
+  </ul>
+</div>
+
 <ng-template #template></ng-template>
