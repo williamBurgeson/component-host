@@ -15,3 +15,5 @@ Note also when a new hosted component is hosted within the Dynamic component it 
 To demonstrate this last point the Dynamic component also has a set of link tags which pass a message into the hosted component, which is then displayed inside that component. Note that given the hosted component is typed to the outside world as "any", it does not matter whether that property exists or not. If it doesn't exist it will just be ignored.
 
 Note this site is just a proof of concept, contains no styling whatsoever, nor is there any thought given to layout or presentation; the default "XXX works!" message is left in to indicate which component is rendering the given section of the page.
+
+I should also acknowledge https://juristr.com/blog/2017/07/ng2-dynamic-tab-component/, from which I was able to grab the critical component creation code from.
