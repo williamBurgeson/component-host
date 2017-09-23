@@ -28,6 +28,8 @@ export class DynamicComponent implements OnInit {
     return this._componentSelected;
   }
   set componentSelected(val) {
+    this._template.clear();
+
     this._componentSelected = val;
     switch (val) {
       case 'Hello': this._componentTypeSelected = HelloComponent; break;
