@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { BonjourComponent } from './bonjour/bonjour.component';
 import { DynamicComponent } from './dynamic/dynamic.component';
-import { HelloComponent } from './hello/hello.component';
 import { GutenTagComponent } from './guten-tag/guten-tag.component';
+import { HelloComponent } from './hello/hello.component';
 
 const routes: Routes = [
   {
