@@ -5,10 +5,18 @@ import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HelloComponent } from './hello/hello.component';
+import { BonjourComponent } from './bonjour/bonjour.component';
+import { GutenTagComponent } from './guten-tag/guten-tag.component';
+
+import { BuongiornoService } from './buongiorno/buongiorno.service';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HelloComponent,
+    BonjourComponent,
+    GutenTagComponent
   ],
   imports: [
     BrowserModule,
@@ -16,7 +24,7 @@ import { AppComponent } from './app.component';
     HttpModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ BuongiornoService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
