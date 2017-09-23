@@ -12,8 +12,8 @@ export class GutenTagComponent implements OnInit {
   constructor(private _buongiorno: BuongiornoService) { }
 
   ngOnInit() {
-    this.message = this._buongiorno.getMessage();
+    this.messageFromService = this._buongiorno.getMessage();
   }
 
-  message = '';
+  messageFromService = '';
 }
