@@ -10,13 +10,15 @@ import { BonjourComponent } from './bonjour/bonjour.component';
 import { GutenTagComponent } from './guten-tag/guten-tag.component';
 
 import { BuongiornoService } from './buongiorno/buongiorno.service';
+import { DynamicComponent } from './dynamic/dynamic.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HelloComponent,
     BonjourComponent,
-    GutenTagComponent
+    GutenTagComponent,
+    DynamicComponent
   ],
   imports: [
     BrowserModule,
